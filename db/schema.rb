@@ -17,13 +17,13 @@ ActiveRecord::Schema.define(version: 2022_08_11_235311) do
     t.string "amount"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
+    t.integer "workout_id", null: false
   end
 
   create_table "workouts", force: :cascade do |t|
     t.string "title"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
-    t.integer "exercise_id", null: false
   end
 
 end
