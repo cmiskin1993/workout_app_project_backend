@@ -14,5 +14,18 @@ puts "🌱 Seeding spices..."
 #     {name: "Tempo Run", amount: "7 miles with miles 3-5 at tempo pace", workout: cardio}
 # ])
 
+# strength = Workout.second
+# crossfit = Workout.third
+
+# Exercise.create([
+#     {name: "Legs", amount: "3 sets of 10 squats", workout: strength}
+# ])
+
+# Exercise.create([
+#     {name: "Kettlebell Swings", amount: "3 rounds 20 swings", workout: crossfit}
+# ])
+
+
+
 puts "✅ Done seeding!"
 
