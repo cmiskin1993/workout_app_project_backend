@@ -1,5 +1,5 @@
 class WorkoutsController < ApplicationController
-    get "/workout" do
+    get "/workouts" do
         Workout.all.to_json(include: [exercises: {only: [:id, :name, :amount]}], except: [:created_at, :updated_at])
     end
   
