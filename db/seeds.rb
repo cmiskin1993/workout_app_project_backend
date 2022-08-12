@@ -1,5 +1,8 @@
 puts "🌱 Seeding spices..."
 
-# Seed your database here
+spin = Workout.create(title: "Spin")
+arms = Workout.create(title: "Arms")
+legs = Workout.create(title: "Legs")
 
 puts "✅ Done seeding!"
+
