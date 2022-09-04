@@ -42,7 +42,7 @@ class WorkoutsController < ApplicationController
       end
   
       def workout_to_json
-        @workout.to_json(include: [:exercise])
+        @workout.to_json(include: [:exercises])
       end
   
       def workout_error_messages

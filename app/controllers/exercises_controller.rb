@@ -19,9 +19,10 @@ class ExercisesController < ApplicationController
       if @exercise.save
         exercise_to_json
       else
-        { errors: ["Exercise Is Taken"] }.to_json
+        { errors: ["Exercise Does Not Save"] }.to_json
       end
     end
+  
   
     patch "/exercises/:id" do
       find_exercise
@@ -48,7 +49,7 @@ class ExercisesController < ApplicationController
       end
   
       def find_workout
-        @author = Workout.find_by_id(params["workout_id"])
+        @workout = Workout.find_by_id(params["workout_id"])
       end
   
       def exercise_to_json
