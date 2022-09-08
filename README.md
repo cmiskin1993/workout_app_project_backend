@@ -10,7 +10,6 @@ See my frontend repo [here](https://github.com/cmiskin1993/workout_app_project_f
 My workout app is a simple application where you can create custom workouts for yourself, and add as many excercises to your workout as you like. 
 
 ### Requirements
-* run bundle install
 * have rake installed (if you don't have rake installed run gem install rake)
 * make sure you are running the backend server on localhost:9292
 * Download fonts
@@ -26,6 +25,7 @@ My workout app is a simple application where you can create custom workouts for 
     * npm start
 
 * Backend
+    * run bundle install
     * run rake server to get your backend server running
     * to check that the backend is up and running you should see the data [here](http://localhost:9292/workouts)
 
