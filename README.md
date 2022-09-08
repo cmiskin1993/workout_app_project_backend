@@ -21,11 +21,11 @@ My workout app is a simple application where you can create custom workouts for 
 
 ### How to install / use
 * Fork and clone repository into your own GitHub
-#### Frontend
-* npm install
-* npm start
+* Frontend
+    * npm install
+    * npm start
 
-#### Backend
-* run rake server to get your backend server running
-* to check that the backend is up and running you should see the data [here](http://localhost:9292/workouts)
+* Backend
+    * run rake server to get your backend server running
+    * to check that the backend is up and running you should see the data [here](http://localhost:9292/workouts)
 
