@@ -2,7 +2,7 @@
 ## Workout app
 Carrie Nestel (Miskin)
 
-## Frontend Repository
+### Frontend Repository
 See my frontend repo [here](https://github.com/cmiskin1993/workout_app_project_frontend)
 
 
